@@ -32,10 +32,10 @@ Este proyecto implementa una estructura de datos **Quadtree** para indexar y ges
 - Tecla 'i': Permite insertar nuevas líneas, solicitando al usuario la pendiente (slope) y el intercepto (intercepto) de la línea.
 - Clic izquierdo: Elimina las líneas dentro del círculo cuando la eliminación está activada.
 ## Funcionalidad
-Búsqueda: Al presionar la tecla 'r', puedes ver las líneas que están dentro de un círculo de radio alrededor del mouse.
-Eliminación: Al presionar la tecla 'e', puedes eliminar las líneas dentro de un círculo de radio alrededor del mouse.
-Inserción de líneas: Al presionar la tecla 'i', puedes agregar nuevas líneas especificando su pendiente e intercepto.
+- Búsqueda: Al presionar la tecla 'r', puedes ver las líneas que están dentro de un círculo de radio alrededor del mouse.
+- Eliminación: Al presionar la tecla 'e', puedes eliminar las líneas dentro de un círculo de radio alrededor del mouse.
+- Inserción de líneas: Al presionar la tecla 'i', puedes agregar nuevas líneas especificando su pendiente e intercepto.
 ## Estructura del código
-QuadtreeNode: Clase que representa un nodo del Quadtree. Contiene las líneas y puede subdividirse cuando su capacidad se excede.
-Quadtree: Clase que representa el Quadtree completo y proporciona métodos para insertar, consultar y eliminar líneas.
-main(): Función principal que maneja la inicialización de Pygame y la interacción con el usuario.
+- QuadtreeNode: Clase que representa un nodo del Quadtree. Contiene las líneas y puede subdividirse cuando su capacidad se excede.
+- Quadtree: Clase que representa el Quadtree completo y proporciona métodos para insertar, consultar y eliminar líneas.
+- main(): Función principal que maneja la inicialización de Pygame y la interacción con el usuario.
